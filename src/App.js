@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './header/Header';
+import Promotions from './promotions/Promotions';
+import './style.sass';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <h2 className="heading-1">Sugestive Golas For The Financial Year</h2>
+      <p className="heading-2">
+        Search for sugestive golas for the financial year, type in the search
+        box
+      </p>
+      <Promotions />
     </div>
   );
 }
