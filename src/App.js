@@ -1,5 +1,5 @@
 import Header from './header/Header';
-import Promotions from './promotions/Promotions';
+import Goals from './goals/Goals';
 import './style.sass';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         Use the same as a suggestion to begin goal setting for the financial
         year.
       </p>
-      <Promotions />
+      <Goals />
     </div>
   );
 }
