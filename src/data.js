@@ -6,6 +6,7 @@ export const files_list = [
     name: 'Web Developer',
     href: test,
   },
+
   {
     name: 'Graphic Designer',
     href: graphic_designer,
@@ -20,6 +21,14 @@ export const files_list = [
   },
   {
     name: 'Web Developerrrr',
+    href: test,
+  },
+  {
+    name: 'Assistence Developer',
+    href: test,
+  },
+  {
+    name: 'CSR Manager',
     href: test,
   },
 ];
