@@ -9,6 +9,7 @@ export default function Promotions() {
     <div className="promotions-cont">
       <div className="form-div">
         <TextField
+          fullWidth
           id="outlined-basic"
           label="Search"
           variant="outlined"

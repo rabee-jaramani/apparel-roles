@@ -6,10 +6,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <h2 className="heading-1">
-        Search for sugestive golas for the financial year, type in the search
-        box
-      </h2>
+      <h1 className="heading-1">Suggestive Goals for Roles</h1>
+      <br />
       <p className="heading-2">
         Search for suggestive goals for your role here.
         <br />
